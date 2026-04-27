@@ -1,0 +1,12 @@
+{
+  "cache_dir": "data/processed2/train_256",
+  "batch_size": 16.0,
+  "normal_loss": "mse",
+  "use_category": true,
+  "epochs": 100.0,
+  "preview_every": 20.0,
+  "comparison_set": "outputs/comparison_set.json",
+  "metallic_bce": 1.0,
+  "adversarial": 0.01,
+  "_backfilled_from": "run_stage1b.bat"
+}

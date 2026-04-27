@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# Local data and outputs
+data/
+data_local/
+outputs_local/
+*.local
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets
+.env
+*.token
+.hf_token
+
+# Large binaries (we host on HF Hub)
+*.pt
+*.ckpt
+*.safetensors
+!examples/inputs/*.png
+!examples/inputs/*.jpg
+
+# Demo outputs and download cache
+examples/output/
+.cache/

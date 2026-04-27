@@ -1,0 +1,13 @@
+torch>=2.1.0
+torchvision>=0.16.0
+numpy
+Pillow
+datasets
+huggingface_hub
+segmentation_models_pytorch
+tqdm
+matplotlib
+scikit-image
+scipy
+pytorch-msssim
+lpips
